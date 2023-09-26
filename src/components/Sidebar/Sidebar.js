@@ -44,6 +44,25 @@ export const Sidebar = () => {
           <div className="button1"><div className="button1p">Back</div></div>
           <div className="button2"><div className="button2p">Approve Order</div></div>
         </div>
+        <br/>
+        <br/>
+        <div className="nav4">
+          <div className="nav4div1">
+            <div className="nav4div1Child">Back</div>
+          </div>
+          <div className="nav4div2">
+            <div className="nav4div2Child">Approve Order</div>
+          </div>
+          <div className="nav4div3">
+            <div className="nav4div3Child">Back</div>
+          </div>
+          <div className="nav4div4">
+            <div className="nav4div4Child">Approve Order</div>
+          </div>
+          <div className="nav4div5">
+            <div className="nav4div5Child">Back</div>
+          </div>
+        </div>
     </>
   );
 };
