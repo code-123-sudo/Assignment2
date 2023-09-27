@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { fetchAllProducts, addProduct, clearSuccess } from "./product.slice";
-import { Sidebar } from "../../components/Sidebar/Sidebar";
+import { Productbar } from "../../components/Productbar/Productbar";
 export function Products() {
 
   const dispatch = useDispatch();
@@ -22,7 +22,7 @@ export function Products() {
 
   return (
     <div>
-      <Sidebar />
+      <Productbar />
     </div>
   );
 }
