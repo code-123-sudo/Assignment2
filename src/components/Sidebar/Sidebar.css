@@ -110,31 +110,122 @@
 
 
 .nav4div1{
-width: 100px;
-height : 50px;
-border-right : 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 129px;
+  margin-top: 4px;
+  padding-right: 50px;
+  padding-left: 75px;
+  border-right : 1px solid black;
 }
 
 .nav4div2{
-width : 100px;
-height : 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 129px;
+  margin-top: 6px;
+  padding-right: 50px;
+  padding-left: 75px;
 border-right : 1px solid black;
 }
 
 .nav4div3{
- width : 100px;
- height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 129px;
+  margin-top: 6px;
+  padding-right: 50px;
+  padding-left: 75px;
  border-right : 1px solid black;
 }
 
 .nav4div4{
-  width: 100px;
-  height : 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 129px;
+  margin-top: 6px;
+  padding-right: 50px;
+  padding-left: 75px;
   border-right : 1px solid black;
 }
 
 .nav4div5{
-  width : 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 129px;
+  margin-top: 6px;
+  padding-right: 50px;
+  padding-left: 75px;
+  border-right: 1px solid black; 
+}
+
+.nav4div6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 129px;
+  margin-top: 6px;
+  padding-right: 50px;
+  padding-left: 75px;
+  border-right: 50px; 
+}
+
+.nav4div1Child{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height : 50px;
+}
+
+.nav4div2Child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height : 50px;
+}
+
+.nav4div3Child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ height: 50px;
+}
+
+.nav4div4Child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height : 50px;
-  border-right : 1px solid black;
+}
+
+.nav4div5Child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 50px;
+}
+
+.nav4div6Child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 50px;
+}
+.subHeading1{
+  font-weight: 200;
+}
+
+.subHeading2{
+  font-weight: 800;
 }
